@@ -6,5 +6,5 @@ const secondNum = firstNum + 2;
 
 const favAnimal = prompt("What is your favorite animal");
 
-console.log(secondNum);
-console.log(favAnimal);
+console.log("secondNum", secondNum);
+console.log("favAnimal", favAnimal);
