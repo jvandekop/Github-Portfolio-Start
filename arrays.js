@@ -1,3 +1,7 @@
+//Name : Jorden Vande Kop
+//Date: 1/28/2024
+
+
 const myArray = [10, 20, 30, 40];
 
 const addOneAndLog = function(num) {
