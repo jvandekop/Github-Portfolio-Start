@@ -1,4 +1,4 @@
-class ExampleClass {
+class NameClass {
   constructor(name) {
     this.name = name;
   }
@@ -8,4 +8,4 @@ class ExampleClass {
   }
 }
 
-export { ExampleClass };
+export { NameClass };
