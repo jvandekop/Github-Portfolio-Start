@@ -1,14 +1,11 @@
-class NameClass {
-    constructor(name) {
-      this.name = name;
-    }
-  
-    logName() {
-      console.log(this.name);
-    }
+class ExampleClass {
+  constructor(name) {
+    this.name = name;
   }
-  
-  // Example usage:
-  const myObject = new NameClass ("John");
-  myObject.logName(); // This will log "John" to the console
-  
+
+  logName() {
+    console.log(this.name);
+  }
+}
+
+export { ExampleClass };
