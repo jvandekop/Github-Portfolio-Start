@@ -1,11 +1,10 @@
-
+// Importing the ExampleClass from the library file
+import { ExampleClass } from './lib_example.js';
 
 // Creating instances with different names
-const obj1 = new NameClass("Alice");
-const obj2 = new NameClass("Bob");
-const obj3 = new NameClass("Charlie");
+const obj1 = new ExampleClass("Alice");
+const obj2 = new ExampleClass("Bob");
 
-// Logging names of each object
+// Calling the method to log names
 obj1.logName(); // Logs "Alice"
 obj2.logName(); // Logs "Bob"
-obj3.logName(); // Logs "Charlie"
